@@ -53,4 +53,6 @@ def cheapiesSearch():
         c.execute("INSERT INTO deals VALUES(?,?,?)", (dealID, dealTitle, dateAdded))
         conn.commit() 
   except:
-    exit()
+    pass
+  finally:
+    pass
