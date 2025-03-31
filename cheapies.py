@@ -45,7 +45,7 @@ def cheapiesSearch():
 
         webhook = DiscordWebhook(url=discordListings)
         embed = DiscordEmbed(description=f"{dealContent}", color='03b2f8', url=dealURL)
-        embed.set_author(name=dealTitle, url=dealURL, icon_url='https://cdn.virtualpornhd.com/wp-content/uploads/2022/08/vrphd_2.png')
+        embed.set_author(name=dealTitle, url=dealURL, icon_url='https://www.cheapies.nz/themes/choicecheapies/logo.png')
         embed.set_image(url=dealImage)
         webhook.add_embed(embed)
         webhook.execute()
